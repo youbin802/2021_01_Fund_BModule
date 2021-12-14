@@ -1,0 +1,665 @@
+* {
+    margin:0;
+    padding:0;
+    border:none;
+    background:none;
+    box-sizing: border-box;
+}
+
+
+.logo-text {
+        position: relative;
+    top: 35%;
+}
+
+.logo-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #7419a2;
+}
+
+.logo-btn {
+    cursor: pointer;
+    background-color: #db80ef;
+    color: #fff;
+    width: 12%;
+    text-align: center;
+    padding: 13px;
+    border-radius: 23px;
+    margin-top: 20px;
+}
+body::-webkit-scrollbar{ display:none; }
+body { overflow: hidden; }
+
+p {
+    margin-bottom:0 !important;
+}
+.main {
+    background-image: url(images/제목\ 없음-12.png);
+    background-repeat: no-repeat;
+    width:130%;
+    position: relative;
+    left:90px;
+}
+
+.fundlook {
+    background-image: url(images/무제-5_대지\ 1.png);
+
+    width:130%;
+    position: relative;
+    left:90px;
+    background-repeat: no-repeat;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.section-container {
+    width:100%;
+    margin: 0 auto;
+}
+
+.section-container > .menu-page {
+    height:100vh;    
+}
+.con {
+    width: 1090px;
+    margin-left: 30px;
+}
+header{
+    position: fixed;
+    top: 50%;
+    height: 100vh;
+    width: 16%;
+    background: linear-gradient(276deg,#9639ee, #a367e7);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+#navMenu  {
+    position: relative;
+    top:35%;
+    padding-left: 75px;
+}
+
+
+.logo  {
+    top: 10%;
+    position: absolute;
+    left: 20%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+#navMenu > div {
+    border-radius: 10px 0 0 10px;
+    font-size: 0.95rem;
+    color: #fff;
+    transition: .5s;
+    margin: 10px 0;
+    padding:15px;
+    cursor: pointer;
+    position: relative;
+    text-align: left;
+}
+
+#navMenu button {
+    color:#fff;
+}
+
+#navMenu > div:nth-child(5) {
+    margin:0;
+    margin-top: 30px;
+}
+
+#navMenu > div:nth-child(6) {
+    margin:0;
+}
+
+#navMenu > div:hover {
+    background-color: #fff;
+    margin-left: 8px;
+    transition: .5s;
+    color:#000;
+}
+
+#navMenu:hover {
+    font-size: #000;
+}
+
+div.progress {
+    width:80%;
+    height:7px;
+}
+
+div.progress-bar {
+    background-color:  #8e43e6;
+}
+
+body > div.container{
+    width:1635px;
+    max-width: none !important;
+}
+/* 메인페이지 영역 */
+#fundMain {
+    display:grid;
+    grid-template-columns: repeat(5,300px);
+    gap:15px;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+/* 펀드보기 영역 */
+
+.fund-list {
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.fund-list .con {
+    display:grid;
+    grid-template-columns: repeat(5,300px);
+    gap:15px;
+}
+
+.fund {
+    border-bottom: 10px solid #ddd;
+    position: relative;
+    border-radius: 6px;
+    background-color: #fff;
+    height:260px;
+    border: 2px solid #8e43e6;
+    /* background-color: #fff; */
+}
+
+.fund:hover {
+    border: 2px solid rgb(176, 39, 211);
+}
+
+.fund .info {
+    padding: 30px;
+    padding-top: 100px;
+}
+
+body > div.container > div > div > nav {
+    top: 68%;
+    left: 55%;
+    position: relative;
+}
+
+
+.fund .info p:nth-child(1) {
+    padding-left: 30px;
+    color: #fff;
+    background: #8e43e6;
+    width: 50%;
+    border-radius: 6px 14px 14px 0px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    padding: 4px 23px;
+}
+
+.fund .info p:nth-child(2) {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.f-btn {
+    display: flex;
+    bottom: 30px;
+    position: absolute;
+    width:80%;
+    padding: 5px;
+    font-size: 15px;
+    border-top: 1px solid rgb(132, 131, 200);
+}
+
+#open {
+    position: absolute;
+    right: 0;
+}
+
+#next {
+    position: absolute;
+    right: 70px; 
+}
+/* 펀드보기 영역 끝*/
+/* 펀드등록 영역 */
+.form-group {
+    position: relative;
+    top: 26%;
+    left: 45%;
+    width: 30%;
+}
+
+.t-group {
+    display:flex;
+    flex-direction: column;
+    margin-left: -77px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.t-group h2 {
+    font-size: 54px;
+    color: #710ad2;
+    font-weight: bold;
+}
+
+
+
+.in-join {
+    margin-top: 10px;
+}
+
+input {
+    border-bottom: 1px solid #ddd;
+    width:80%;
+    padding: 10px;
+}
+
+.subBtn {
+    background: linear-gradient(276deg,#710ad2, #8e43e6);
+    width: 80%;
+    padding: 20px;
+    margin:30px 0 10px 0;
+    border-radius: 12px;
+    color:rgb(241, 241, 241);
+    font-size: 15px;
+}
+
+.form-group span {
+    position: absolute;
+    right: 19%;
+    color: red;
+    font-size: 12px;
+}
+
+.sideJoin {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 35px 0 28px 0;
+}
+
+body > div.container > div > div.menu-page.login.formshar > div > div.sideJoin > div:nth-child(1) {
+    font-size: 17px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #555;
+    padding-top: 10px;
+    padding-left: 22px;
+}
+
+.icon-group {
+    display:flex;
+} 
+
+.icon-group >div {
+    width: 56px;
+    height: 56px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+.icon-group >div:nth-child(1) {
+    background-color: rgba(219, 246, 224, 0.692);
+}
+.icon-group >div:nth-child(2) {
+    margin:0 10px 0 10px;
+    background-color: rgba(231, 207, 245, 0.541);
+}
+.icon-group >div:nth-child(3) {
+    background-color: rgba(215, 238, 253, 0.561);
+}
+.sideJoin img {
+    width:28px;
+    height:28px;
+    position: relative;
+    top: 14px;
+    left:14px;
+}
+
+/* 투자자목록 영역 */
+.list {
+    background-image: url(images/무제-5_대지\ 1.png);
+    width:100%;
+    background-size: cover;
+}
+.list #select {
+    position: relative;
+    left: 121%;
+    margin-bottom:10px;
+    padding: 6px;
+    border: 1px solid #555
+}
+.list .con {
+    position: relative;
+    top: 17%;
+    left:19%;
+}
+
+.list div.progress {
+    position: relative;
+    left: -146px;
+    top: 7px;
+    height: 15px;
+    width:10%;
+}
+
+p {
+    margin-bottom:0 !important;
+}
+.inv-list {
+    position: relative;
+    top: 22%;
+    left:-15%;
+}
+
+.inv-list p {
+    width:120px;
+}
+
+
+
+.inv-list p:nth-child(2) {
+    width: 230px;
+}
+
+
+.inv-list p:nth-child(3) {
+    width:159px;
+    
+}
+
+.inv-list p:nth-child(4) {
+    width:260px;
+}
+
+.inv-list p:nth-child(5) {
+    width:100px;
+}
+
+.inv-list p:nth-child(6) {
+    position: relative;
+    left: -150px;
+}
+
+.inv-item {
+    position: relative;
+    top: 24%;
+    height: 80px;
+    padding: 25px;
+    background: linear-gradient(276deg,#814bb4, #832de6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 147%;
+    left:-15%;
+    margin-bottom: 15px;
+ }
+
+.inv-item span {
+    color:#fff;
+}
+
+.inv-item span:nth-child(4) {
+    width:38px;
+}
+
+.inv-item span:nth-child(5) {
+    width:187px;
+}
+
+.inv {
+    padding:30px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: space-between;
+    border-left:5px solid #710ad2;
+    background-color: #fff;
+    margin-top: 10px;
+    width:147%;
+}
+
+/* 팝업 영역 */
+#popup {
+    position: fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    display: none;
+    top:0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+#popup.active {
+    display: flex;
+}
+
+#popup > .inner {
+    background-color: #fff;
+    padding: 20px;
+    width: 20%;
+    height: 300px;
+    flex-direction: column;
+    position: absolute;
+    top: 22%;
+    left: 46%;
+    height: 600px;
+    border-bottom:30px solid rgb(221, 221, 221);
+}
+
+#popup h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+#popup p {
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+
+#popup input {
+    border:none;
+    width:100%;
+    border-bottom: 1px solid #ddd;
+    padding:10px;
+}
+
+#popup .button-group{
+    width:80%;
+    margin:10px;
+}
+
+#popup button {
+    border:1px solid #ddd;
+    background-color: #fff;
+    padding:5px;
+    width:49%;
+}
+
+#popup > .inner canvas {
+    margin-top:5px;
+    border:1px solid #ddd;
+}
+
+#popup span {
+    position: relative;
+    bottom:-50px;
+    font-size: 13px;
+    left:70px;
+    color:#555;
+
+}
+
+#setWidth {
+    margin:10px 0 5px 85%;
+    border: 1px solid #ddd;
+}
+/* 상세보기 영역 */
+#view {
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top:0;
+    right:0;
+    display: none;
+    z-index: 100;
+}
+
+#view.active {
+    display:flex;
+}
+
+.view-inner {
+    background-color: #fff;
+    width: 750px;
+    border-radius: 5px;
+    height: 450px;
+    top: 28%;
+    position: relative;
+    left: 42%;
+}
+
+.v-text {
+    line-height: 36px;
+    height: 100%;
+    padding:20% 20px;
+    position: absolute;
+    background-color: #8e43e6;
+}
+
+.v-text p {
+    color:#fff;
+    font-weight: bold;
+}
+
+.vBox {
+    width: 539px;
+    height: 82%;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+.vBox span {
+    font-size:15px;
+}
+
+.vBox .progress-bar {
+    width:40%;
+    
+}
+
+.vBox > div {
+    height:74px;
+    border-bottom:1px solid #ddd;
+    display: flex;
+    padding:30px;
+}
+
+.vBox-nav {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    width: 554px;
+    padding: 2px;
+    right: 0px;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.vBox-nav p {
+    width:200px;
+    font-size: 13px;
+    color:#555;
+}
+
+.nBoxin div.progress {
+    width:11%;
+    position: relative;
+    top:7px;
+}
+
+.nBoxin p {
+    width:150px;
+    height:30px;
+    font-size: 13px;
+}
+
+
+.nBoxin p:nth-child(2) {
+    width:145px;
+}
+
+.nBoxin p:nth-child(3) {
+    text-align: center;
+}
+
+.nBoxin p:nth-child(4) {
+    text-align: center;
+}
+
+.nBoxin p:nth-child(6) {
+    padding-left:10px;
+    width:52px;
+}
+
+
+#exclose {
+    border:1px solid  #8e43e6;
+    padding:5px 10px;
+    background:none;
+    font-size:10px;
+    position: absolute;
+    right:4px;;
+    top:4px;
+}
+
+
+#toast {
+    position: fixed;
+    min-width: 350px;
+  top:0;
+  z-index: 100;
+    right: 10px;
+    text-align: right;
+  }
+  
+  #toast .toastWrap {
+    margin: 6px 0 0;
+    padding: 18px 0 20px;
+    display: none;
+    background: #f0f0d2;
+  }
+
+  #toast b:before {
+    content: "x";
+  }
+
+  footer {
+      position: fixed;
+      bottom:0;
+      border:1px solid #ddd;
+      height:100px;
+      width:79%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#555;
+  }
